@@ -25,4 +25,22 @@
         <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
 </addon>
+
+<addon id="repository.archangel" name="ARCHANGEL Repo" version="1.0.0" provider-name="Lórien">
+	<extension point="xbmc.addon.repository" name="ARCHANGEL Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/irmu/plugin.video.archangel/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/irmu/plugin.video.archangel/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/irmu/plugin.video.archangel/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">ARCHANGEL Repo</summary>
+		<description lang="en">Arda where all things KODI reside</description>
+		<genre></genre>
+	</extension>
+</addon>
 </addons>
