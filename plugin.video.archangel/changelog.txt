@@ -1,4 +1,7 @@
-v1.1
-26.dec.2017
+v1.1.1 - 28.12.2017
+» added color to menus
+» added settings shortcut on main menu
+» removed rainbow vodoo
 
-Initial commits and first menus
+v1.1.0 - 26.12.2017
+» initial commits and first menus
