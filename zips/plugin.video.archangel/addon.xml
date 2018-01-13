@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.archangel" name="Archangel" version="1.1.4" provider-name="Lórien">
+<addon id="plugin.video.archangel" name="Archangel" version="2017.01.15" provider-name="Lórien">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -9,7 +9,9 @@
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
 		<import addon="script.module.youtube.dl" />
-		<import addon="plugin.program.plexus" version="0.1.6.a"  />
+		<import addon="program.plexus" version="0.1.6.a"  />
+		<import addon="plugin.video.live.streamspro" />
+		<import addon="plugin.video.reddit_viewer" />
 		<import addon="plugin.video.youtube" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.urlresolver" version="1.2.0" />
@@ -20,10 +22,8 @@
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Leader of the Army of God</summary>
-      <description lang="en">And war broke out in heaven; Michael and his angels fought against the dragon. The dragon and his angels fought back, but they were defeated.</description>
+      <description lang="en">Salvation is here</description>
       <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
       <platform>all</platform>
-        <website>www.noobsandnerds.com</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
 </addon>

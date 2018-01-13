@@ -21,11 +21,11 @@ import __builtin__
 # CONFIGURATION VARIABLES
 # -----------------------
 # change these to suit your addons
-root_xml_url = "file://main.xml"  # url of the root xml file
+root_xml_url = "https://pastebin.com/raw/QBvqF2AF"  # url of the root xml file
 __builtin__.tvdb_api_key = "0629B785CE550C8D"  # tvdb api key
-__builtin__.tmdb_api_key = "66e34e89e655538fecd4aca6dc820141"  # tmdb api key
-__builtin__.trakt_client_id = "948c4e2514db4f2cca33e737f5e73ae213e537d344b9916983e53e3cc2a1b21c"  # trakt client id
-__builtin__.trakt_client_secret = "140369c2c981732a7b183db2e9300065629b8b7417a149a0c4e098ebee8f692e"  # trakt client secret
+__builtin__.tmdb_api_key = "69f3c97c76fe2839331ef26c13d72ec2"  # tmdb api key
+__builtin__.trakt_client_id = "ff636b33b2c380c9268ada09f22cf749391d175ba9e5b48723a935671bf9de58"  # trakt client id
+__builtin__.trakt_client_secret = "45432fb753a9980ec29da844506e72bb55e72b46c25f7bcb395c635342445f5d"  # trakt client secret
 __builtin__.search_db_location = ""  # location of search db
 
 import os
