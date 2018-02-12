@@ -1,5 +1,8 @@
+﻿v2017.02.12
+» updated last Jen
+
 v2017.01.15
-» some under the hodd changes
+» some under the hood changes
 » added new dependencies
 
 v1.1.1 - 28.12.2017
